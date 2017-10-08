@@ -1,0 +1,32 @@
+@import "bootstrap";
+@import "home";
+
+
+/*comment here */
+body {
+	
+	background-color:#126748;
+}
+
+
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.container {
+  //background: tomato;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  //background: gold;
+  width: 100px;
+  height: 40px;
+  @include vertical-align();
+}

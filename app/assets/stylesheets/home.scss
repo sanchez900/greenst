@@ -1,0 +1,28 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+	font-family: "avenir";
+	src: font_url('/assets/avenir-next-regular.eot') format('eot')
+	font-url('/assets/avenir-next-regular.ttf') format('ttf')
+	font-url('/assets/avenir-next-regular.svg') format('svg')
+	font-url('/assets/avenir-next-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.noting {
+	
+	color: white;
+}
+
+
+.info_mail {
+	color: white;
+	font-family: avenir;
+	text-align: center;
+	font-size: 20px;
+
+}
